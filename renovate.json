@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "config:base"
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true,
+            "requiredStatusChecks": null
+        },
+        {
+            "matchPackageNames": [
+                "@logseq/libs"
+            ],
+            "ignoreUnstable": false,
+            "automerge": false,
+            "requiredStatusChecks": null
+        }
+    ]
+}
