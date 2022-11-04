@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.0.0...v1.1.0) (2022-11-04)
+
+
+### Features
+
+* Add support for a fallback template ([204dec7](https://github.com/peanball/logseq-dynamic-lookup/commit/204dec70c9532a9d2d09fe13c57f859e2cb70e4d))
+
 # 1.0.0 (2022-11-04)
 
 
