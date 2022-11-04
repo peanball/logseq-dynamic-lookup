@@ -47,15 +47,15 @@ async function main() {
    */
   logseq.App.onMacroRendererSlotted(({ slot, payload }) => {
     // console.debug(`rendering slot ${slot} with payload:`, payload)
-    const [type, target, property] = payload.arguments
+    const [type, target, property, formatTemplate, fallbackTemplate] = payload.arguments
     if (!type || type != ':lookup') {
       return
     }
 
-    let template = `<span alt="${target}:${property}" class="dynamic-lookup">$value</span>`
+    let format = `<span alt="${target}:${property}" class="dynamic-lookup">$value</span>`
     if (payload.arguments.length > 3) {
-      template = payload.arguments[3]
-      console.trace("setting template to: ", template, payload.arguments)
+      format = formatTemplate
+      console.trace("setting template to: ", format)
     }
 
     const query = `[
@@ -73,16 +73,21 @@ async function main() {
       const properties = result[0][0]
       console.trace(properties)
       const value = properties[property]
-      if (value) {
-        template = template.replace("$value", value)
 
+      logseq.provideUI({
+        key: slot,
+        slot, reset: true,
+        template: format.replace("$value", value)
+      })
+    }).catch(_ => {
+      if (fallbackTemplate) {
         logseq.provideUI({
           key: slot,
           slot, reset: true,
-          template
+          template: fallbackTemplate
         })
       }
-    }).catch(e => console.log(e))
+    })
   })
 }
 
