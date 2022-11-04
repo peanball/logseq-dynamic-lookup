@@ -1,6 +1,6 @@
 {
   "name": "logseq-dynamic-lookup",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A renderer for dynamic lookup of properties for pages",
   "main": "dist/index.html",
   "author": "peanball",
