@@ -6,7 +6,6 @@ updates:
       interval: "weekly"
     versioning-strategy: increase-if-necessary
     commit-message:
-      include: scope
       prefix: fix
       prefix-development: fix(no-release)
     labels:
