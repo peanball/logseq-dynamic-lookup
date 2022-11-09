@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    commit-message:
+      include: scope
+      prefix: fix
+      prefix-development: fix(no-release)
+    labels:
+      - "dependabot"
+    reviewers:
+      - "peanball"
