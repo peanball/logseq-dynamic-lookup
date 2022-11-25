@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.1.1...v1.2.0) (2022-11-25)
+
+
+### Features
+
+* add lookup of multiple properties at once ([2894b68](https://github.com/peanball/logseq-dynamic-lookup/commit/2894b68aca6498f3eac4672bc15b39ee291e732e))
+
 ## [1.1.1](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.1.0...v1.1.1) (2022-11-04)
 
 
