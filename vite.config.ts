@@ -8,5 +8,6 @@ export default defineConfig({
   build: {
     target: "esnext",
     minify: "esbuild",
+    sourcemap: true
   },
 });
