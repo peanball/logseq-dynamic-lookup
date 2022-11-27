@@ -83,7 +83,7 @@ async function main() {
 
       // intersection of requested and available properties
       const foundProperties = Object.keys(properties).filter(value => propertyNames.includes(value))
-      if (!foundProperties) {
+      if (foundProperties.length == 0) {
         throw RangeError("no properties found, use fallback template")
       }
 
