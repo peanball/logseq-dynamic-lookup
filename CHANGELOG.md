@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.2.0...v1.2.1) (2022-11-28)
+
+
+### Bug Fixes
+
+* `fallbackTemplate` ignore error in case of property absence ([c0d9238](https://github.com/peanball/logseq-dynamic-lookup/commit/c0d92385c2a38c29589a167bb7d3e959c6aa4461))
+
 # [1.2.0](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.1.1...v1.2.0) (2022-11-25)
 
 
