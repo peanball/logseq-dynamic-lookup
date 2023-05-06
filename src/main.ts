@@ -107,6 +107,17 @@ async function main() {
         let value = "";
         if (propertyName in properties) {
           value = properties[propertyName]
+          if (propertyName === "tags" && formatTemplate === undefined) {
+            const htmlTemplate = '<a data-ref="${pageName}" class="tag">#${pageName}</a>'
+            const separatorSpanTemplate = '<span> </span>'
+            if (Array.isArray(value)) {
+              value = `<div>${value.map((tag) => {
+                return htmlTemplate.replaceAll("${pageName}", tag)
+              }).join(separatorSpanTemplate)}</div>`
+            } else {
+              value = htmlTemplate.replaceAll("${pageName}", value)
+            }
+          }
           template = template.replace(`$${propertyName}`, value)
         }
         console.info(propertyName, template)
