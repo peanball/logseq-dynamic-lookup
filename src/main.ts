@@ -54,7 +54,10 @@ async function main() {
     }
 
     // trim surrounding [[]] from target in case it is a page reference
-    const targetPage = target.replace(/^(\[\[)(.*)(\]\])$/, "$2")
+    // and escape "
+    const targetPage = target
+      .replace(/^(\[\[)(.*)(\]\])$/, "$2")
+      .replace(/"/g, '\\"')
 
     // split properties by ":", remove any empty entries.
     const propertyNames = propertyNameList.split(":").map((prop) => prop.trim()).filter(prop => prop !== "")
