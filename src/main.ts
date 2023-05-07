@@ -102,7 +102,7 @@ async function main() {
         if (propertyName in properties) {
           value = properties[propertyName]
           if (propertyName === "tags" && formatTemplate === undefined) {
-            const htmlTemplate = '<a data-ref="${pageName}" class="tag">#${pageName}</a>'
+            const htmlTemplate = '<a data-ref="${pageName}" class="tag" data-on-click="openPage">#${pageName}</a>'
             const separatorSpanTemplate = '<span> </span>'
             if (Array.isArray(value)) {
               value = `<div>${value.map((tag) => {
@@ -135,5 +135,17 @@ async function main() {
   })
 }
 
+const model = {
+  openPage: async (e: any) => {
+    const pageName = e.dataset.ref
+    if (pageName) {
+      const pageEntity = await logseq.Editor.getPage(pageName)
+      if (pageEntity) {
+        await logseq.Editor.scrollToBlockInPage(pageName, pageEntity.uuid)
+      }
+    }
+  }
+}
+
 // bootstrap the plugin
-logseq.ready(main).catch(console.error)
+logseq.ready(model, main).catch(console.error)
