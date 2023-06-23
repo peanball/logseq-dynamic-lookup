@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.2.1...v1.2.2) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** bump @logseq/libs from 0.0.10 to 0.0.14 ([2498ddf](https://github.com/peanball/logseq-dynamic-lookup/commit/2498ddfe55683e94483e827176902f8e78e160bd))
+
 ## [1.2.1](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.2.0...v1.2.1) (2022-11-28)
 
 
