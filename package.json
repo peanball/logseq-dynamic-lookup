@@ -19,7 +19,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
     "@types/node": "18.11.9",
-    "@typescript-eslint/eslint-plugin": "5.44.0",
+    "@typescript-eslint/eslint-plugin": "5.60.1",
     "@typescript-eslint/parser": "5.60.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "8.35.0",
