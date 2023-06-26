@@ -21,7 +21,7 @@
     "@types/node": "18.11.9",
     "@typescript-eslint/eslint-plugin": "5.44.0",
     "@typescript-eslint/parser": "5.60.0",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
     "eslint": "8.35.0",
     "semantic-release": "19.0.5",
     "typescript": "5.1.3",
