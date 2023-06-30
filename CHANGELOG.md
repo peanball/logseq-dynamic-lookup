@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.3.0...v1.4.0) (2023-06-30)
+
+
+### Features
+
+* Add a default style for built-in property "tags". ([ce07403](https://github.com/peanball/logseq-dynamic-lookup/commit/ce07403ebf2fa3757f06fc4e989ef45e84c1eae1))
+* Support opening the page on rendered tag. ([791f361](https://github.com/peanball/logseq-dynamic-lookup/commit/791f3615ba2a77b52ccfc95b220437c89c5667ba))
+
 # [1.3.0](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.2.3...v1.3.0) (2023-06-30)
 
 
