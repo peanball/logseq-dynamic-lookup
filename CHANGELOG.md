@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.2.3...v1.3.0) (2023-06-30)
+
+
+### Bug Fixes
+
+* Escape quote marks in the page name. ([ac8ba0a](https://github.com/peanball/logseq-dynamic-lookup/commit/ac8ba0ab6c2ffdb9dac26aa8b640b20affab6bda))
+
+
+### Features
+
+* Support using page reference as target page. ([69e0cba](https://github.com/peanball/logseq-dynamic-lookup/commit/69e0cba72497847c27b6d9901ee6471efc3f4914))
+
 ## [1.2.3](https://github.com/peanball/logseq-dynamic-lookup/compare/v1.2.2...v1.2.3) (2023-06-30)
 
 
