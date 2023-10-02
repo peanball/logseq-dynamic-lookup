@@ -13,3 +13,4 @@ updates:
       - "dependabot"
     reviewers:
       - "peanball"
+    open-pull-requests-limit: 25
