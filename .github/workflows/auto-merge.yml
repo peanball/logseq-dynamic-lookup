@@ -4,10 +4,7 @@ on: pull_request
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-      repository-projects: write
+    permissions: write-all
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - name: Dependabot metadata
