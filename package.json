@@ -11,7 +11,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "@logseq/libs": "^0.0.15"
+    "@logseq/libs": "^0.0.16"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
