@@ -23,8 +23,8 @@ devDependencies:
     specifier: 11.0.2
     version: 11.0.2(semantic-release@23.0.2)
   '@types/node':
-    specifier: 20.11.17
-    version: 20.11.17
+    specifier: 20.11.24
+    version: 20.11.24
   '@typescript-eslint/eslint-plugin':
     specifier: 5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.55.0)(typescript@5.3.3)
@@ -45,7 +45,7 @@ devDependencies:
     version: 5.3.3
   vite:
     specifier: 5.1.1
-    version: 5.1.1(@types/node@20.11.17)
+    version: 5.1.1(@types/node@20.11.24)
   vite-plugin-logseq:
     specifier: ^1.1.2
     version: 1.1.2
@@ -810,8 +810,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@20.11.17:
-    resolution: {integrity: sha512-QmgQZGWu1Yw9TDyAP9ZzpFJKynYNeOvwMJmaxABfieQoVoiVOS6MN1WSpqpRcbeA5+RW82kraAVxCCJg+780Qw==}
+  /@types/node@20.11.24:
+    resolution: {integrity: sha512-Kza43ewS3xoLgCEpQrsT+xRo/EJej1y0kVYGiLFE1NEODXGzTfwiC6tXTLMQskn1X4/Rjlh0MQUvx9W+L9long==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -3318,7 +3318,7 @@ packages:
       magic-string: 0.26.7
     dev: true
 
-  /vite@5.1.1(@types/node@20.11.17):
+  /vite@5.1.1(@types/node@20.11.24):
     resolution: {integrity: sha512-wclpAgY3F1tR7t9LL5CcHC41YPkQIpKUGeIuT8MdNwNZr6OqOTLs7JX5vIHAtzqLWXts0T+GDrh9pN2arneKqg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3346,7 +3346,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.17
+      '@types/node': 20.11.24
       esbuild: 0.19.9
       postcss: 8.4.35
       rollup: 4.8.0
