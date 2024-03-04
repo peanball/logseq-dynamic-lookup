@@ -20,8 +20,8 @@ devDependencies:
     specifier: 10.0.1
     version: 10.0.1(semantic-release@23.0.2)
   '@semantic-release/npm':
-    specifier: 11.0.2
-    version: 11.0.2(semantic-release@23.0.2)
+    specifier: 11.0.3
+    version: 11.0.3(semantic-release@23.0.2)
   '@types/node':
     specifier: 20.11.17
     version: 20.11.17
@@ -758,8 +758,8 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/npm@11.0.2(semantic-release@23.0.2):
-    resolution: {integrity: sha512-owtf3RjyPvRE63iUKZ5/xO4uqjRpVQDUB9+nnXj0xwfIeM9pRl+cG+zGDzdftR4m3f2s4Wyf3SexW+kF5DFtWA==}
+  /@semantic-release/npm@11.0.3(semantic-release@23.0.2):
+    resolution: {integrity: sha512-KUsozQGhRBAnoVg4UMZj9ep436VEGwT536/jwSqB7vcEfA6oncCUU7UIYTRdLx7GvTtqn0kBjnkfLVkcnBa2YQ==}
     engines: {node: ^18.17 || >=20}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -771,7 +771,7 @@ packages:
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 8.0.0
-      npm: 10.1.0
+      npm: 10.5.0
       rc: 1.2.8
       read-pkg: 9.0.0
       registry-auth-token: 5.0.2
@@ -2404,8 +2404,8 @@ packages:
       path-key: 4.0.0
     dev: true
 
-  /npm@10.1.0:
-    resolution: {integrity: sha512-pZ2xybXzNGbJFZEKNbPoEXsE38Xou9VTnxxBk+B3pz0ndsGCs7iWHoUCPSsISU2hjmkWfDkJo3bYKE8RDOg4eg==}
+  /npm@10.5.0:
+    resolution: {integrity: sha512-Ejxwvfh9YnWVU2yA5FzoYLTW52vxHCz+MHrOFg9Cc8IFgF/6f5AGPAvb5WTay5DIUP1NIfN3VBZ0cLlGO0Ys+A==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dev: true
@@ -2454,6 +2454,7 @@ packages:
       - ms
       - node-gyp
       - nopt
+      - normalize-package-data
       - npm-audit-report
       - npm-install-checks
       - npm-package-arg
@@ -2469,6 +2470,7 @@ packages:
       - qrcode-terminal
       - read
       - semver
+      - spdx-expression-parse
       - ssri
       - supports-color
       - tar
@@ -2891,7 +2893,7 @@ packages:
       '@semantic-release/commit-analyzer': 11.0.0(semantic-release@23.0.2)
       '@semantic-release/error': 4.0.0
       '@semantic-release/github': 9.0.3(semantic-release@23.0.2)
-      '@semantic-release/npm': 11.0.2(semantic-release@23.0.2)
+      '@semantic-release/npm': 11.0.3(semantic-release@23.0.2)
       '@semantic-release/release-notes-generator': 12.0.0(semantic-release@23.0.2)
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.0(typescript@5.3.3)
