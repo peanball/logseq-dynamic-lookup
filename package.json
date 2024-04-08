@@ -25,7 +25,7 @@
     "eslint": "8.55.0",
     "semantic-release": "23.0.2",
     "typescript": "5.3.3",
-    "vite": "5.1.1",
+    "vite": "5.2.8",
     "vite-plugin-logseq": "^1.1.2"
   },
   "homepage": "https://github.com/peanball/logdseq-dynamic-lookup#readme",
