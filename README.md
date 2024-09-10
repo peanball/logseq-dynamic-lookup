@@ -1,3 +1,7 @@
+# NOTE - Abandoned Project
+
+This project is abandoned and will not receive further development. Please move to one of the forks.
+
 # Dynamic Lookup Plugin
 
 This plugin allows you to look up properties on a target page and place their values in your text.
