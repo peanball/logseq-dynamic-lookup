@@ -23,7 +23,7 @@
     "@typescript-eslint/parser": "5.62.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "8.55.0",
-    "semantic-release": "23.0.2",
+    "semantic-release": "23.1.1",
     "typescript": "5.3.3",
     "vite": "5.1.1",
     "vite-plugin-logseq": "^1.1.2"
